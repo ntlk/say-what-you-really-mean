@@ -1,0 +1,26 @@
+body {
+  background: #f2eef7;
+  color: #8631fb;
+  padding: 2em 1em;
+  font-size: 100%;
+  font-family: Space Mono, monospace;
+  text-align: center;
+}
+
+a, a:visited {
+  color: #8631fb;
+}
+
+.synonym {
+  font-size: 500%;
+}
+
+footer {
+  margin-top: 5em;
+}
+
+@media (max-width: 600px) {
+  .synonym {
+    font-size: 200%;
+  }
+}
